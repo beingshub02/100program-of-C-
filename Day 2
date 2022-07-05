@@ -1,0 +1,23 @@
+# Program to Add two Numbers:
+ #include<iostream>
+ using namespace std;
+ int main()
+ {
+    //variable declaration
+    int num1,num2,result;
+    
+    //take user input
+    cout<<"Enter first Number:";
+    cin>>num1;
+    
+    cout<<"Enter Second Number:";
+    cin>>num2;
+    
+    //to add two number
+    result=num1 + num2;
+    
+    //display the result
+    cout<<"\nAddition is :"<<result;
+    
+    return 0;
+    }
