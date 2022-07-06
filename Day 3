@@ -1,0 +1,18 @@
+Prgram to check whether a number is positive or not
+#Include<iostream>
+using namespace std;
+int main()
+{ 
+ int num;
+ cout<<"Enter any non zero Number";
+ cin>>num;
+ if(num > 0)
+ {
+  Cout<<"Number is positive";
+  }
+   else 
+   {
+   Cout<<"Number is Negative";
+   }
+   return 0;
+   
